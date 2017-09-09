@@ -1,0 +1,41 @@
+<!DOCTYPE HTML> 
+<html>
+ <head> 
+ <title>Sign-Up</title> <link href="style.css";
+ </head>
+  <body id="body-color">
+ <div id="sejuila.php">
+  <fieldset style="width:20%">
+  <legend>Registration Form</legend>
+   <table border="0"> 
+   <tr> 
+   <form method="POST" action="connectivity-sejuila.php">
+    <td>Name</td>
+    <td><input type="text" name="name"></td> 
+    </tr> <tr>
+     <td>Email</td>
+     <td><input type="text" name="email"></td>
+      </tr> 
+      <tr> 
+      <td>UserName</td>
+      <td><input type="text" name="user"></td> 
+      </tr>
+       <tr> 
+       <td>Password</td><td>
+       <input type="password" name="pass"></td>
+        </tr> 
+       <tr>
+        <td>Confirm Password </td>
+       <td><input type="password" name="cpass"></td>
+        </tr> 
+       <tr> 
+       <td><input id="button" type="submit" name="submit" value="Sign-Up"></td>
+        </tr> 
+       </form>
+
+   </table> 
+   </fieldset> 
+   </div>
+    </body>
+     </html>
+
